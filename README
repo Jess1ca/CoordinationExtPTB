@@ -1,0 +1,10 @@
+To get a version of the Penn TreeBank with extended coordination structures (http://arxiv.org/pdf/1606.02529v1.pdf) run the following command:
+
+run.py <path>
+
+where path is the Penn Treebank V1.0 trees including the NP Brackting extension (http://schwa.org/projects/resources/wiki/NounPhrases). 
+The possible input formats are:
+(1) single file where each line represents one tree
+(2) folder which includes all the wsj files
+
+A file named "PTB.ext" will be created in the current directory and contains the extended PTB trees where each line represents one tree.
